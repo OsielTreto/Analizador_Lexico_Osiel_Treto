@@ -67,20 +67,20 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(240)))), ((int)(((byte)(1)))));
             this.label2.Location = new System.Drawing.Point(26, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(252, 58);
+            this.label2.Size = new System.Drawing.Size(163, 58);
             this.label2.TabIndex = 4;
-            this.label2.Text = "CARGANDO";
+            this.label2.Text = "LÉXICO";
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.newProgressBar1);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.newProgressBar1);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(585, 213);
@@ -116,11 +116,11 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("GeForce", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(26, 54);
+            this.label3.Location = new System.Drawing.Point(26, 53);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(286, 58);
+            this.label3.Size = new System.Drawing.Size(287, 58);
             this.label3.TabIndex = 5;
-            this.label3.Text = "COMPILADOR";
+            this.label3.Text = "ANALIZADOR";
             // 
             // newProgressBar1
             // 
